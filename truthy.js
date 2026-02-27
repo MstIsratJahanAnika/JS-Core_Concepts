@@ -8,7 +8,7 @@ data = false;
 data = null; // falsy
 data = undefined; // falsy
 data = {}; //truthy
-data = []; // falsy
+data = []; // truthy
 if(data){
     console.log('truthy');
 }
@@ -21,5 +21,5 @@ if(!price){  //bit - ulta functionality
     console.log('price is falsy');
 }
 // else{
-//     console.log('price is falsy');
+    // console.log('price is falsy');
 // }
